@@ -1,0 +1,101 @@
+.hidden {
+  display: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+
+  background-size: cover;
+  position: relative;
+}
+
+#info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#clock {
+  font-size: 120px;
+  margin: 0;
+}
+#login-Form {
+  width: 200px;
+  font-size: 20px;
+  margin: 26px 0px;
+  background: none;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+.none-border {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+input {
+  background: none;
+}
+input::placeholder {
+  color: white;
+  font-weight: 600;
+  opacity: 0.85;
+}
+.todo-form {
+  border-bottom-style: solid;
+  width: 150px;
+  height: 24px;
+}
+
+.todo-List {
+  font-size: 10px;
+  color: white;
+  position: absolute;
+
+  left: 45%;
+  top: 67%;
+}
+#todo-list {
+  font-size: 15px;
+}
+#greeting {
+  font-size: 30px;
+}
+
+.log-out {
+  margin: 10px;
+  width: 70px;
+  position: absolute;
+  left: 190vh;
+  color: white;
+  background: transparent;
+
+  border-bottom: none;
+}
+#quote {
+  font-size: 15px;
+  width: 400px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#weather {
+  font-size: 20px;
+  margin-left: 5px;
+  position: absolute;
+  top: 93vh;
+  color: white;
+}
